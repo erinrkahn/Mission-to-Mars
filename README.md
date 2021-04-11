@@ -16,7 +16,7 @@ In order to create a "Mission to Mars" web application that displayes the most u
 
 ### Improved Web App Appearance
 
-###### Mars Hemisphere Image Thumbnails
+###### Mars Hemisphere Full Resolution Images
 > The Mars hemisphere images were added as thumbnails and when clicked, show the full resolution image.
 > ![mars_image](https://user-images.githubusercontent.com/77405273/114320326-58decd80-9aca-11eb-9ce3-ec6ce8d7b03f.png)
 
