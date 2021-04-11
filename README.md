@@ -4,7 +4,7 @@
 
 ### Purpose
 
-In order to create a "Mission to Mars" web application that displays the most up to date information, BeautifulSoup and Splinter are used to scrape websites while a Mongo database is utilized to store the data. The current web app was updated to include images of Mars' hemispheres and Bootstrap components were used to update the appearance of the web app. 
+In order to create a "Mission to Mars" web application that displays the most up to date information, BeautifulSoup and Splinter are used to scrape websites while a Mongo database is utilized to store the data. The current web app was updated to include images of Mars' hemispheres and Bootstrap components were used to update the appearance of the web app.
 
 ## Mission to Mars Web App Updates
 
