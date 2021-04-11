@@ -18,5 +18,8 @@ In order to create a "Mission to Mars" web application that displayes the most u
 
 ###### Mars Hemisphere Image Thumbnails
 > The Mars hemisphere images were added as thumbnails and when clicked, show the full resolution image.
+> 
+
 ###### Web App Heading
->
+> The web app heading is updated to include a background image and text color is changed to white. 
+> 
