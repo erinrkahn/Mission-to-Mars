@@ -13,8 +13,9 @@
   <body>
     <div class="container">
       <!-- Add Jumbotron to Header -->
-      <div class="jumbotron text-center">
-        <h1>Mission to Mars</h1>
+      <div class="jumbotron text-center"
+          style="background: url('https://data-class-mars-hemispheres.s3.amazonaws.com/Mars_Hemispheres/images/555e6403a6ddd7ba16ddb0e471cadcf7_syrtis_major_enhanced.tif_full.jpg') no-repeat">
+        <h1 style="color:seashell">Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
         <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
       </div>
@@ -50,15 +51,19 @@
       </div>
       <!-- Add section for Hemispheres -->
       <div class="row" id="hemispheres_images">
-        <div class="col-md-12"></div>
+        <div class="col-md-12">
           <h2>Mars Hemispheres</h2>
           {% for hemisphere in mars.hemispheres %}
-            <img
-            src="{{hemisphere.image_url}}"
-            class="img-responsive"
-            alt="Responsive image"
-            />
-            <h4>{{hemisphere.title}}</h4>
+            <div class="col-md-3">
+              <a href="{{hemisphere.image_url}}">
+                <img
+                src="{{hemisphere.image_url}}"
+                class="img-thumbnail"
+                alt="Responsive image"
+                />
+              </a>
+              <h4>{{hemisphere.title}}</h4>
+            </div>
           {% endfor %}
         </div>
       </div>
